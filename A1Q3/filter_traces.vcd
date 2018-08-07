@@ -1,0 +1,54 @@
+$date
+     Jun 05, 2018       12:36:35
+$end
+
+$version
+ SystemC 2.3.1-Accellera --- Apr 30 2015 14:13:38
+$end
+
+$timescale
+     1 ns
+$end
+
+$scope module SystemC $end
+$var real    1  aaaaa  X       $end
+$var real    1  aaaab  Y       $end
+$upscope $end
+$enddefinitions  $end
+
+$comment
+All initial values are dumped below at time 0 sec = 0 timescale units.
+$end
+
+$dumpvars
+r0 aaaaa
+r0 aaaab
+$end
+
+#11
+r1 aaaaa
+
+#21
+r0 aaaaa
+
+#31
+r0.4399999976158142 aaaab
+
+#41
+r0.1859999895095825 aaaab
+
+#51
+r-0.1335999965667725 aaaab
+
+#61
+r0.1079600006341934 aaaab
+
+#71
+r0.0180639922618866 aaaab
+
+#81
+r-0.0533783957362175 aaaab
+
+#91
+r0.03969184309244156 aaaab
+
